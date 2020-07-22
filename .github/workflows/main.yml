@@ -20,3 +20,5 @@ jobs:
       run: |
         sudo pip install cookiecutter
         ./scripts/test.sh
+      env:
+        CIRCLE_CI_ENV: true
